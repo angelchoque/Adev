@@ -1,2 +1,0 @@
-# Adev
-GitHub Page Angel
