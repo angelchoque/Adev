@@ -4,83 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angel Choque Portfolio | Frontend Developer</title>
-
-    <link rel="shortcut icon" href="./assets/img/actualizar.svg">
-
+    <meta name="keywords" content="angel choque, frontend developer, miguel angel choque"/>
+    <meta name="copyright" content="Angel Choque" />
+    <title>Angel Choque | Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 500px)">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
         <header class="main-header">
-            <div class="bars-menu">
-                <span class="logo">Angel Ch.</span>
-                <span class="bars" id="bars">
-                    &#9776
-                </span>
-            </div>
-            <nav class="navbar" id="navbar">
-                <a href="#home">Home</a>
-                <a href="#works">Works</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+            <nav class="navbar-main">
+                <ul class="logo-content">
+                    <li><a href="/">ANGEL DEV.</a></li>
+                </ul>
+                <ul class="navbar-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About me</a></li>
+                    <li><a href="">Contact me</a></li>
+                    <li class="download-button"><a href="" download="Angelchoque-CV">Download CV</a></li>
+                </ul>
             </nav>
-            <div class="description">
-                <div class="header-description">
-                    I'm Angel Choque. <br>
-                    Frontend Developer
+            <div class="header-content">
+                <div class="header-content__profile">
+                    <h2 class="name-content">
+                        Angel Choque
+                    </h2>
+                    <h1 class="main-title">
+                        Frontend Developer
+                    </h1>
+                    <a class="download-button--blue" href="" download="Angelchoque-CV">Download CV</a>
                 </div>
-                <figure class="header-img">
-                    <img src="./assets/img/actualizar.svg" alt="icon">
-                </figure>
-                <div class="button-works">
-                    <button type="button">Works</button>
-                    <span>
-                        &#8609;
-                    </span>
-                </div>
+                <picture class="img-profile">
+                    <img src="" alt="angel choque">
+                </picture>
             </div>
         </header>
-        <main>
-            <section id="works">
-                <div class="works__description">
-                 view my works
+        
+        <!-- MAIN SECTION -->
+
+        <!-- PROJECTS -->
+        <main class="main-section">
+            <section class="section-projects">
+                <h4 class="section-projects__main-titlee">My projects</h4>
+                <div class="project-box-container">
+                    <div class="project-container">
+                        <picture class="project-preview">
+                            <img src="" alt="Img project">
+                        </picture>
+                        <div class="project-description">
+                            <h4 class="project-title">Title Project</h4>
+                            <p class="project-text-description">Projects description</p>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="project-container">
+                        <picture class="project-preview">
+                            <img src="" alt="Img project">
+                        </picture>
+                        <div class="project-description">
+                            <h4 class="project-title">Title Project</h4>
+                            <p class="project-text-description">Projects description</p>
+                        </div>
+                    </div>
+                    <div class="project-container">
+                        <picture class="project-preview">
+                            <img src="" alt="Img project">
+                        </picture>
+                        <div class="project-description">
+                            <h4 class="project-title">Title Project</h4>
+                            <p class="project-text-description">Projects description</p>
+                        </div>
+                    </div>
+                    <div class="project-container">
+                        <picture class="project-preview">
+                            <img src="" alt="Img project">
+                        </picture>
+                        <div class="project-description">
+                            <h4 class="project-title">Title Project</h4>
+                            <p class="project-text-description">Projects description</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="works-container">
-                    <div class="works-container__item">
-                        <figure>
-                            <img src="./assets/img/tip-app-calculator.png" alt="tip-app-calculator">
-                        </figure>
-                        <div class="works-container__item-description">
-                            <div class="">
-                                Lorem ipsum dolor sit amet.
-                            </div>
-                            <div>
-                                Tecnologies 
-                                <span><a href="/">Visit Repository</a></span>
-                            </div>
+                <div class="view-more-projects">
+                    <a href="">Click here to view more projects</a>
+                </div>
+            </section>
+            <!-- SKILLS -->
+            <section class="section-skills">
+                <div class="skills-container">
+                    <h5 class="title-skills-container">Skills</h5>
+                    <div class="skill-box-container">
+                        <div class="skill-item">
+                            <picture class="skill-item__icon-container">
+                                <img src="" alt="example">
+                            </picture>
+                            <span class="skill-item__name">SASS</span>
+                        </div>
+                        <div class="skill-item">
+                            <picture class="skill-item__icon-container">
+                                <img src="" alt="example">
+                            </picture>
+                            <span class="skill-item__name">SASS</span>
+                        </div>
+                        <div class="skill-item">
+                            <picture class="skill-item__icon-container">
+                                <img src="" alt="example">
+                            </picture>
+                            <span class="skill-item__name">SASS</span>
+                        </div>
+                        <div class="skill-item">
+                            <picture class="skill-item__icon-container">
+                                <img src="" alt="example">
+                            </picture>
+                            <span class="skill-item__name">SASS</span>
+                        </div>
+                        <div class="skill-item">
+                            <picture class="skill-item__icon-container">
+                                <img src="" alt="example">
+                            </picture>
+                            <span class="skill-item__name">SASS</span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="about">
-
-            </section>
-            <section id="contact">
-
+            <section class="section-aboutme">
+                <div class="Aboutme-title">
+                    <h4>About Me</h4>
+                </div>
+                <div class="aboutme-container">
+                    <p class="aboutme-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore animi aperiam quis deleniti a optio dolorum debitis repellat unde, aliquid cupiditate corporis quaerat provident, officiis natus laboriosam laudantium exercitationem nulla!</p>
+                    <picture class="aboutme-prifile-img">
+                        <img src="" alt="angel choque">
+                    </picture>
+                </div>
             </section>
         </main>
-        <footer>
 
+        <!-- Footer -->
+
+        <footer class="main-footer">
+            <section class="footer-box-container">
+                <ul class="logo-content">
+                    <li><a href="/">ANGEL DEV.</a></li>
+                </ul>
+            </section>
+            <div class="copyright">
+                © Copyright - Angel Choque. All right reserved.
+            </div>
         </footer>
     </div>
 
-
-    <script src="./js/main.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
